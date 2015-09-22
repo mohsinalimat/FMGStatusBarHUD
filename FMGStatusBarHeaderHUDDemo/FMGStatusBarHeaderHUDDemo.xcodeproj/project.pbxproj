@@ -1,0 +1,452 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		8EAD75561BB0E53F0096F3F6 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 8EAD75551BB0E53F0096F3F6 /* main.m */; };
+		8EAD75591BB0E53F0096F3F6 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 8EAD75581BB0E53F0096F3F6 /* AppDelegate.m */; };
+		8EAD755C1BB0E53F0096F3F6 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8EAD755B1BB0E53F0096F3F6 /* ViewController.m */; };
+		8EAD755F1BB0E53F0096F3F6 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8EAD755D1BB0E53F0096F3F6 /* Main.storyboard */; };
+		8EAD75611BB0E53F0096F3F6 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8EAD75601BB0E53F0096F3F6 /* Images.xcassets */; };
+		8EAD75641BB0E53F0096F3F6 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 8EAD75621BB0E53F0096F3F6 /* LaunchScreen.xib */; };
+		8EAD75701BB0E53F0096F3F6 /* FMGStatusBarHeaderHUDDemoTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 8EAD756F1BB0E53F0096F3F6 /* FMGStatusBarHeaderHUDDemoTests.m */; };
+		8EC345361BB14FA60088B5FA /* FMGStatusBarHUD.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 8EC345331BB14FA60088B5FA /* FMGStatusBarHUD.bundle */; };
+		8EC345371BB14FA60088B5FA /* FMGStatusBarHUD.m in Sources */ = {isa = PBXBuildFile; fileRef = 8EC345351BB14FA60088B5FA /* FMGStatusBarHUD.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		8EAD756A1BB0E53F0096F3F6 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 8EAD75481BB0E53F0096F3F6 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 8EAD754F1BB0E53F0096F3F6;
+			remoteInfo = FMGStatusBarHeaderHUDDemo;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		8EAD75501BB0E53F0096F3F6 /* FMGStatusBarHeaderHUDDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FMGStatusBarHeaderHUDDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		8EAD75541BB0E53F0096F3F6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8EAD75551BB0E53F0096F3F6 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		8EAD75571BB0E53F0096F3F6 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		8EAD75581BB0E53F0096F3F6 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		8EAD755A1BB0E53F0096F3F6 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		8EAD755B1BB0E53F0096F3F6 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		8EAD755E1BB0E53F0096F3F6 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		8EAD75601BB0E53F0096F3F6 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		8EAD75631BB0E53F0096F3F6 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		8EAD75691BB0E53F0096F3F6 /* FMGStatusBarHeaderHUDDemoTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FMGStatusBarHeaderHUDDemoTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		8EAD756E1BB0E53F0096F3F6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8EAD756F1BB0E53F0096F3F6 /* FMGStatusBarHeaderHUDDemoTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FMGStatusBarHeaderHUDDemoTests.m; sourceTree = "<group>"; };
+		8EC345331BB14FA60088B5FA /* FMGStatusBarHUD.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = FMGStatusBarHUD.bundle; sourceTree = "<group>"; };
+		8EC345341BB14FA60088B5FA /* FMGStatusBarHUD.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FMGStatusBarHUD.h; sourceTree = "<group>"; };
+		8EC345351BB14FA60088B5FA /* FMGStatusBarHUD.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FMGStatusBarHUD.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		8EAD754D1BB0E53F0096F3F6 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8EAD75661BB0E53F0096F3F6 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		8EAD75471BB0E53F0096F3F6 = {
+			isa = PBXGroup;
+			children = (
+				8EAD75521BB0E53F0096F3F6 /* FMGStatusBarHeaderHUDDemo */,
+				8EAD756C1BB0E53F0096F3F6 /* FMGStatusBarHeaderHUDDemoTests */,
+				8EAD75511BB0E53F0096F3F6 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		8EAD75511BB0E53F0096F3F6 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				8EAD75501BB0E53F0096F3F6 /* FMGStatusBarHeaderHUDDemo.app */,
+				8EAD75691BB0E53F0096F3F6 /* FMGStatusBarHeaderHUDDemoTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		8EAD75521BB0E53F0096F3F6 /* FMGStatusBarHeaderHUDDemo */ = {
+			isa = PBXGroup;
+			children = (
+				8EC345321BB14FA60088B5FA /* FMGStatusBarHUD */,
+				8EAD75571BB0E53F0096F3F6 /* AppDelegate.h */,
+				8EAD75581BB0E53F0096F3F6 /* AppDelegate.m */,
+				8EAD755A1BB0E53F0096F3F6 /* ViewController.h */,
+				8EAD755B1BB0E53F0096F3F6 /* ViewController.m */,
+				8EAD755D1BB0E53F0096F3F6 /* Main.storyboard */,
+				8EAD75601BB0E53F0096F3F6 /* Images.xcassets */,
+				8EAD75621BB0E53F0096F3F6 /* LaunchScreen.xib */,
+				8EAD75531BB0E53F0096F3F6 /* Supporting Files */,
+			);
+			path = FMGStatusBarHeaderHUDDemo;
+			sourceTree = "<group>";
+		};
+		8EAD75531BB0E53F0096F3F6 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				8EAD75541BB0E53F0096F3F6 /* Info.plist */,
+				8EAD75551BB0E53F0096F3F6 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		8EAD756C1BB0E53F0096F3F6 /* FMGStatusBarHeaderHUDDemoTests */ = {
+			isa = PBXGroup;
+			children = (
+				8EAD756F1BB0E53F0096F3F6 /* FMGStatusBarHeaderHUDDemoTests.m */,
+				8EAD756D1BB0E53F0096F3F6 /* Supporting Files */,
+			);
+			path = FMGStatusBarHeaderHUDDemoTests;
+			sourceTree = "<group>";
+		};
+		8EAD756D1BB0E53F0096F3F6 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				8EAD756E1BB0E53F0096F3F6 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		8EC345321BB14FA60088B5FA /* FMGStatusBarHUD */ = {
+			isa = PBXGroup;
+			children = (
+				8EC345331BB14FA60088B5FA /* FMGStatusBarHUD.bundle */,
+				8EC345341BB14FA60088B5FA /* FMGStatusBarHUD.h */,
+				8EC345351BB14FA60088B5FA /* FMGStatusBarHUD.m */,
+			);
+			name = FMGStatusBarHUD;
+			path = ../../FMGStatusBarHUD;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		8EAD754F1BB0E53F0096F3F6 /* FMGStatusBarHeaderHUDDemo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8EAD75731BB0E53F0096F3F6 /* Build configuration list for PBXNativeTarget "FMGStatusBarHeaderHUDDemo" */;
+			buildPhases = (
+				8EAD754C1BB0E53F0096F3F6 /* Sources */,
+				8EAD754D1BB0E53F0096F3F6 /* Frameworks */,
+				8EAD754E1BB0E53F0096F3F6 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = FMGStatusBarHeaderHUDDemo;
+			productName = FMGStatusBarHeaderHUDDemo;
+			productReference = 8EAD75501BB0E53F0096F3F6 /* FMGStatusBarHeaderHUDDemo.app */;
+			productType = "com.apple.product-type.application";
+		};
+		8EAD75681BB0E53F0096F3F6 /* FMGStatusBarHeaderHUDDemoTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8EAD75761BB0E53F0096F3F6 /* Build configuration list for PBXNativeTarget "FMGStatusBarHeaderHUDDemoTests" */;
+			buildPhases = (
+				8EAD75651BB0E53F0096F3F6 /* Sources */,
+				8EAD75661BB0E53F0096F3F6 /* Frameworks */,
+				8EAD75671BB0E53F0096F3F6 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				8EAD756B1BB0E53F0096F3F6 /* PBXTargetDependency */,
+			);
+			name = FMGStatusBarHeaderHUDDemoTests;
+			productName = FMGStatusBarHeaderHUDDemoTests;
+			productReference = 8EAD75691BB0E53F0096F3F6 /* FMGStatusBarHeaderHUDDemoTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		8EAD75481BB0E53F0096F3F6 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0640;
+				ORGANIZATIONNAME = FMG;
+				TargetAttributes = {
+					8EAD754F1BB0E53F0096F3F6 = {
+						CreatedOnToolsVersion = 6.4;
+					};
+					8EAD75681BB0E53F0096F3F6 = {
+						CreatedOnToolsVersion = 6.4;
+						TestTargetID = 8EAD754F1BB0E53F0096F3F6;
+					};
+				};
+			};
+			buildConfigurationList = 8EAD754B1BB0E53F0096F3F6 /* Build configuration list for PBXProject "FMGStatusBarHeaderHUDDemo" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 8EAD75471BB0E53F0096F3F6;
+			productRefGroup = 8EAD75511BB0E53F0096F3F6 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				8EAD754F1BB0E53F0096F3F6 /* FMGStatusBarHeaderHUDDemo */,
+				8EAD75681BB0E53F0096F3F6 /* FMGStatusBarHeaderHUDDemoTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		8EAD754E1BB0E53F0096F3F6 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8EAD755F1BB0E53F0096F3F6 /* Main.storyboard in Resources */,
+				8EAD75641BB0E53F0096F3F6 /* LaunchScreen.xib in Resources */,
+				8EC345361BB14FA60088B5FA /* FMGStatusBarHUD.bundle in Resources */,
+				8EAD75611BB0E53F0096F3F6 /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8EAD75671BB0E53F0096F3F6 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		8EAD754C1BB0E53F0096F3F6 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8EC345371BB14FA60088B5FA /* FMGStatusBarHUD.m in Sources */,
+				8EAD755C1BB0E53F0096F3F6 /* ViewController.m in Sources */,
+				8EAD75591BB0E53F0096F3F6 /* AppDelegate.m in Sources */,
+				8EAD75561BB0E53F0096F3F6 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8EAD75651BB0E53F0096F3F6 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8EAD75701BB0E53F0096F3F6 /* FMGStatusBarHeaderHUDDemoTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		8EAD756B1BB0E53F0096F3F6 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 8EAD754F1BB0E53F0096F3F6 /* FMGStatusBarHeaderHUDDemo */;
+			targetProxy = 8EAD756A1BB0E53F0096F3F6 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		8EAD755D1BB0E53F0096F3F6 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				8EAD755E1BB0E53F0096F3F6 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		8EAD75621BB0E53F0096F3F6 /* LaunchScreen.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				8EAD75631BB0E53F0096F3F6 /* Base */,
+			);
+			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		8EAD75711BB0E53F0096F3F6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.4;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		8EAD75721BB0E53F0096F3F6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		8EAD75741BB0E53F0096F3F6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = FMGStatusBarHeaderHUDDemo/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		8EAD75751BB0E53F0096F3F6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = FMGStatusBarHeaderHUDDemo/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		8EAD75771BB0E53F0096F3F6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = FMGStatusBarHeaderHUDDemoTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/FMGStatusBarHeaderHUDDemo.app/FMGStatusBarHeaderHUDDemo";
+			};
+			name = Debug;
+		};
+		8EAD75781BB0E53F0096F3F6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = FMGStatusBarHeaderHUDDemoTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/FMGStatusBarHeaderHUDDemo.app/FMGStatusBarHeaderHUDDemo";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		8EAD754B1BB0E53F0096F3F6 /* Build configuration list for PBXProject "FMGStatusBarHeaderHUDDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8EAD75711BB0E53F0096F3F6 /* Debug */,
+				8EAD75721BB0E53F0096F3F6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8EAD75731BB0E53F0096F3F6 /* Build configuration list for PBXNativeTarget "FMGStatusBarHeaderHUDDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8EAD75741BB0E53F0096F3F6 /* Debug */,
+				8EAD75751BB0E53F0096F3F6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8EAD75761BB0E53F0096F3F6 /* Build configuration list for PBXNativeTarget "FMGStatusBarHeaderHUDDemoTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8EAD75771BB0E53F0096F3F6 /* Debug */,
+				8EAD75781BB0E53F0096F3F6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 8EAD75481BB0E53F0096F3F6 /* Project object */;
+}
